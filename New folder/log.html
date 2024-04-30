@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">Learning Management System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+            <div class="d-flex">
+                <button class="btn btn-primary btn-sm"><a class="navbar-brand" href="reg.html">Plp Academy</a></button>
+            </div>
+            
+        
+        </div>
+      </nav>
+      <form class="reg-form" align="center" method="POST">
+        <div class="mb-3 mt-3">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter Username" name="name" required>
+          </div>
+         
+          <div class="mb-3">
+            <label for="Password" class="form-label">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Password" name="password" required minlength="8">
+          </div><br>
+          <button onclick="login.php" class="btn btn-primary">Login</button>
+          
+
+      </form>
+    
+
+
+      <script src="index.js"></script>
+</body>
+</html>

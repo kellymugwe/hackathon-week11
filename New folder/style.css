@@ -1,0 +1,16 @@
+.reg-form  {
+    width:400px;
+    height:520px;
+    margin: 0 auto;
+  
+}
+
+body  {
+    height:720px;
+}
+
+.btn-primary		 {
+    width:250px;
+    margin:0 auto;
+    border-radius: 0%;
+}
